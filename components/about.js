@@ -7,10 +7,10 @@ class About extends Component {
       <View style={styles.container}>
         <Image
           style={styles.image}
-          source={{ uri: 'https://facebook.github.io/react/logo-og.png' }}
+          source={require('../dpine_lockup.jpg')}
         />
         <Text>
-          This app was written in React-Native.
+          Youtube search app for Hack-a-Thing 2!
         </Text>
       </View>
     );
